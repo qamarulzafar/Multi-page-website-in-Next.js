@@ -30,24 +30,33 @@ const Header = () => {
 
       {/* Navigation Links */}
       <nav className="hidden md:flex gap-8 font-medium text-base md:text-lg">
-        <Link href="/" className="text-lg hover:text-gray-700 transition">
+        <Link
+          href="/"
+          className="text-lg hover:text-gray-700 transition transform hover:translate-y-[1px]"
+        >
           Home
         </Link>
         <Link
           href="/Speaker"
-          className="text-lg hover:text-gray-700 transition"
+          className="text-lg hover:text-gray-700 transition transform hover:translate-y-[1px]"
         >
           Speaker
         </Link>
-        <Link href="/Help" className="text-lg hover:text-gray-700 transition">
+        <Link
+          href="/Help"
+          className="text-lg hover:text-gray-700 transition transform hover:translate-y-[1px]"
+        >
           Help
         </Link>
-        <Link href="/News" className="text-lg hover:text-gray-700 transition">
+        <Link
+          href="/News"
+          className="text-lg hover:text-gray-700 transition transform hover:translate-y-[1px]"
+        >
           News
         </Link>
         <Link
           href="/Contact"
-          className="text-lg hover:text-gray-700 transition"
+          className="text-lg hover:text-gray-700 transition transform hover:translate-y-[1px]"
         >
           Contact
         </Link>

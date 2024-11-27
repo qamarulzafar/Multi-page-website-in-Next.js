@@ -29,11 +29,11 @@ const Card: React.FC<planstype> = ({ price, access, features }) => {
             <ul className="plans py-5">
               {features && features.length > 0 ? (
                 features.map((feature, index) => (
-                  <div className="div flex items-center gap-2">
+                  <div key={index} className="div flex items-center gap-2">
                     <div className="icon w-6 h-6 bg-black rounded-full flex justify-center items-center">
                       <VscCheck className="text-white text-base" />
                     </div>
-                    <li key={index} className="text-black py-3 text-lg">
+                    <li className="text-black py-3 text-lg">
                       {feature}
                     </li>
                   </div>
@@ -44,7 +44,9 @@ const Card: React.FC<planstype> = ({ price, access, features }) => {
             </ul>
           </div>
           <div className="button mt-auto ">
-            <button className="py-3 w-full bg-black text-white rounded-3xl">BUY TICKETS</button>
+            <button className="py-3 w-full bg-black text-white rounded-3xl">
+              BUY TICKETS
+            </button>
           </div>
         </div>
       </div>

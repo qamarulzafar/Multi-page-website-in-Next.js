@@ -6,7 +6,7 @@ const EventOverview = () => {
       <div className="pt-20 w-full h-auto px-5 sm:px-10 md:px-20 ">
         <div>
           <p className=" text-3xl sm:text-5xl md:text-6xl font-normal md:font-semibold">
-            Whether you're looking to learn from the best, share ideas, or make
+            Whether youre looking to learn from the best, share ideas, or make
             new connections, this is the event where thought leaders come
             together to shape the future.
           </p>
